@@ -1,0 +1,319 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+.hola {
+    background-color: red;
+    padding: 0.5rem;
+    font-size: 5rem;
+}
+
+.parrafo {
+    background-color: brown;
+    color: rgb(218, 218, 218);
+
+}
+
+.linea1 {
+    color: red;
+    background-color: blue;
+
+}
+
+.linea2 {
+    color: red;
+    background-color: rgb(48, 48, 250);
+}
+
+.linea3 {
+    color: red;
+    background-color: rgb(66, 66, 252);
+}
+
+.linea4 {
+    color: red;
+    background-color: rgb(121, 121, 255);
+}
+
+.linea5 {
+    color: red;
+    background-color: rgb(162, 162, 255);
+}
+
+.mouse1 {
+    font-size: 4rem;
+    cursor: crosshair;
+}
+
+.mouse2 {
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.mouse3 {
+    font-size: 4rem;
+    cursor: move;
+}
+
+.mouse4 {
+    font-size: 4rem;
+    cursor: e-resize;
+}
+
+.mouse5 {
+    font-size: 4rem;
+    cursor: help;
+}
+
+.mouse6 {
+    font-size: 4rem;
+    cursor: none;
+}
+
+.campo2 {
+    background-color: green;
+    color: white;
+}
+
+.campo {
+    color: #666;
+    background-color: #ffa;
+}
+
+.contenedor1 {
+    background-color: green;
+    position: relative;
+    left: 50px;
+    top: 40px;
+
+}
+
+.contenedor2 {
+    background-color: yellow;
+}
+
+.contenedorprincipal {
+    background-color: #ffa;
+    padding: 20px;
+    height: 300px;
+    width: 100%;
+
+}
+
+.absoluto1 {
+    background-color: white;
+    font-size: 5rem;
+    height: 70px;
+}
+
+.absoluto2 {
+    background-color: aqua;
+    font-size: 5rem;
+    height: 250px;
+    width: 30%;
+}
+
+/* .capa1 {
+    background-color: red;
+    height: 300px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.capa2 {
+    background-color: green;
+    height: 250px;
+    position: absolute;
+    width: 80%;
+
+    z-index: 500;
+}
+
+.capa3 {
+    background-color: blue;
+    height: 200px;
+    position: absolute;
+    width: 60%;
+
+    z-index: 900;
+} */
+
+table,td {
+    border: 1px solid black;
+    background-color: aqua;
+    border-collapse: collapse;
+
+}
+td{
+    background-color: white;
+}
+
+.c1{
+    background-color: blueviolet;
+}
+
+/* #barrainferior {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+#barralateralderecha {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 200px;
+    height: 100%;
+    background-color: #eee;
+} */
+
+.letragrande {
+    float:left;
+    font-size:200%;
+}
+
+.letrasgrandes{
+    background-color: white;
+    position: relative;
+    /* z-index: 1000; */
+    
+}
+
+.caja{
+    background-color: red;
+    height: 200px;
+}
+
+
+
+
+.head{
+    position: relative;
+    background-color: aqua;
+    top: 0px;
+    height: 30px;
+
+}
+
+.iz{
+    position: relative;
+    display: inline-block;
+    background-color: lawngreen;
+    width: 50%;
+    height: 150px;
+
+}
+
+.dr{
+   
+    float: right;
+    background-color: rgb(151, 0, 252);
+    width: 50%;
+    right: 0px;
+    height: 150px;
+}
+
+.pie{
+    background-color: green;
+    position: relative;
+    bottom: 0px;
+    height: 39px;
+
+}
+
+
+
+.head1{
+    position: relative;
+    background-color: aqua;
+    top: 0px;
+    height: 30px;
+
+}
+
+.iz1{
+    position: relative;
+    display: inline-block;
+    background-color: lawngreen;
+    width: 33.3%;
+    height: 150px;
+
+}
+
+.centro{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(252, 0, 189);
+    width: 33.3%;
+    height: 150px;
+}
+
+.dr1{
+   
+    float: right;
+    background-color: rgb(151, 0, 252);
+    width: 33.2%;
+    right: 0px;
+    height: 150px;
+}
+
+.pie1{
+    background-color: green;
+    position: relative;
+    bottom: 0px;
+    height: 39px;
+
+}
+
+ul>li{
+    color: red;
+    background-color: black;
+}
+
+ol>li{
+    color: green;
+    background-color: grey;
+}
+
+h1+p{
+    text-indent: 1rem;
+}
+
+.megusta {
+    cursor: pointer;
+  }
+  
+  .megusta:hover {
+    opacity: 0.4;
+    transition: 0.3s;
+  }
+  
+  .megusta:active {
+    transform: scale(0.9);
+  }
+  
+  .megustaN {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .cora {
+    border: 0;
+    background: none;
+    padding-left: 10px;
+    padding-top: 13px;
+  }

@@ -1,0 +1,30 @@
+/*combinados /1.descendientes*/
+/* div p{
+    color: red;
+    background-color: aqua;
+} */
+
+/*combinados/2 descendiente directo o hijo*/
+
+div > p{
+    color: aqua;
+    background-color: red;
+}
+
+/*combinados/ adyacente /comparten un mismo padre y estan situados hacia abajo de otro elemento*/
+/* div +p{
+    color: white;
+    background-color: black;
+}
+div +span{
+    color: white;
+    background-color: brown;
+} */
+
+/*combinados/general de hermanos*/
+div~p{
+    background-color:blue ;
+}
+
+
+

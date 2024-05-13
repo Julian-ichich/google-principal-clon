@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+   
+   justify-content: center;
+   
+    height: 100%;
+    width: 100%;
+    
+}
+
+body,html{
+    height: 100%;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+   
+
+}
+
+.green{
+    background-color: green;
+    flex-shrink: 2;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.gray{
+    background-color: grey;
+}

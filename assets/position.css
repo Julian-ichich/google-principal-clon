@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+span{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 1px;
+    border-radius: 12px;
+}
+
+.box{
+    border: 2px solid black;
+    
+    display: inline-block;
+    background-color: rgb(243, 243, 243);
+
+    border-radius: 12px;
+    position:static;
+    margin: 15px;
+    padding: 40px;
+    width: 300px;
+    margin-left: 420px;
+}
+
+/* #two{
+    background-color: green;
+} */

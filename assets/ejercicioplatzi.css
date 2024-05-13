@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.listado {
+    margin-top: 1px;
+    list-style: none;
+    padding-left: 5px;
+    background-color: transparent;
+    text-align: right;
+    margin-right: 10px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    
+    
+}
+.item {
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+.logo{
+    margin-left: 5px;
+    margin-top: 2px;
+   
+
+}
+.encabezado{
+    background-color: lightblue;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+}
+
+.bloque{
+    background-color: red;
+    width: 210px;
+    height:600px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.blocky{
+    display: block;
+    background-color: pink;
+    margin: 6px;
+    border-radius: 12px;
+    width: 200px;
+    height: 142px;
+}
+
+.contenido{
+    background-color: grey;
+    position: absolute;
+    right: 0px;
+    width: 1099px;
+    height: 600px;
+    padding: 100px;
+
+}
+.texto{
+    text-align: center;
+}
+
+.pie{
+    background-color: rgba(0, 0, 0, 0.712);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 46px;
+}
+
+/*en la etiqueta html se usa para rem y no andar calculando en px se usa font-size 62.5% */
+
+

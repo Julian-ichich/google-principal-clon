@@ -1,0 +1,64 @@
+
+.fondocolor{
+    background-color:  yellow;
+    /* background-image: url(./super.svg); */
+    /* background-repeat: repeat-x; */
+    /* background-attachment: fixed;
+    background-size: contain;
+    background-repeat: round; */
+    /* background-position: center; */
+}
+
+.color{
+    color: red;
+    background-color: rgb(50,50,50,0.2);
+    size: 1000;
+}
+
+.letras{
+    /* font-family: 'Times New Roman', Times, serif;
+    font-size: 5000;
+    font-style: italic;
+    font-weight: bolder; */
+    
+    /* font: normal 300 12px 'courrier New',courier,monospace ; */
+}
+
+.letras{
+    font-size: 1000;
+    text-decoration: underline  white;
+    text-decoration: line-through solid white;
+    text-align: justify;
+    text-indent: 30;
+    word-spacing: 20px ;
+    letter-spacing: 100px;
+
+}
+
+
+.subindice{
+    vertical-align: middle;
+    font-size: 4;
+}
+
+.interlineado{
+line-height: 2;
+} 
+
+
+/* tipos de border */
+
+.bordes{
+    border-style: groove;
+    border-width: 2px;
+    border-color: green;
+    border-top-width: 20px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    border-top-style:double  ;
+    border-right-style: double ;
+    border-bottom-style:dashed;
+    border-left-style: double ;
+
+
+}

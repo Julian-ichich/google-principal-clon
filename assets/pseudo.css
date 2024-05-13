@@ -1,0 +1,75 @@
+/* .btn-green{
+    color: white;
+    background-color: green;;
+    border: 2px solid black;
+}
+
+.btn-green:hover{
+    background-color: red;
+}
+
+.btn-green:active{
+    background-color: yellow;
+}
+
+a{
+    background-color:grey;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: aqua;
+
+}
+
+a:visited{
+    background-color: transparent;
+}
+
+
+.check:checked{
+  
+   accent-color: yellow;
+
+}
+
+input:focus{
+    background-color: red;
+} */
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: aqua;
+}
+
+.item {
+    display: inline-block;
+}
+
+.item a{
+color: white;
+padding: 5px;
+border-radius: 2px;
+text-decoration: none;
+}
+
+.item a:hover{
+color: blue;
+}
+
+.item a:active{
+    color: red;
+}
+
+.item a::after{
+    content: " | ";
+}
+
+.item a::before{
+    content: " | ";
+}
+
+
+
